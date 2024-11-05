@@ -11,7 +11,8 @@ for i in range(3):
 
     if Animal.lower() ==words.lower():
         print("Heyyy You Won:) , You are a Genius!")
+        break;
     else:
-        print("You lost!!, Try Again:)") 
+        print("Incorrect guess. Try again! :)") 
 print("Game Over!!!")        
    
